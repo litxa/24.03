@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDoList.Models</name>
+    </assembly>
+    <members>
+        <member name="T:ToDoList.Models.Chore">
+            <summary>
+            Writing C# classes, setting program logic, usings,
+            namespaces like <c>Title</c>, <c>Description</c> est., public/private classes, getter/setter
+            </summary>
+        </member>
+    </members>
+</doc>

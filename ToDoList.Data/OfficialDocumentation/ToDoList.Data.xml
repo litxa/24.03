@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDoList.Data</name>
+    </assembly>
+    <members>
+        <member name="T:ToDoList.Data.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ToDoList.Data.Migrations.ChoreFixed">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.ChoreFixed.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.ChoreFixed.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.ChoreFixed.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ToDoList.Data.Migrations.UsersBioColumn">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.UsersBioColumn.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.UsersBioColumn.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.Migrations.UsersBioColumn.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ToDoList.Data.ToDoListDbContext.#ctor">
+            <summary> Class <c>ToDoListContext</c> 
+            Разбирането на контекста на даден проект е важно за устойчивостта в текущите проекти.
+            </summary>
+        </member>
+        <member name="P:ToDoList.Data.ToDoListDbContext.Chores">
+            <summary>
+            construction
+            </summary>
+        </member>
+        <member name="M:ToDoList.Data.ToDoListDbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            деклариваме <c>Chores</c>, <c>Users</c>
+            </summary>
+            <param name="optionsBuilder"></param>
+        </member>
+        <member name="M:ToDoList.Data.ToDoListDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            тук се свързваме със SQL !
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+    </members>
+</doc>

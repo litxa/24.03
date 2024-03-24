@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDoList.Service</name>
+    </assembly>
+    <members>
+        <member name="T:ToDoList.Service.ChoreService">
+            <summary>
+            A Service class provides a way of a client to interact with some
+            functionality in the application.
+            </summary>
+        </member>
+        <member name="M:ToDoList.Service.ChoreService.Create(System.String,ToDoList.Models.Chore)">
+            <summary>
+            Creating chore and making us able to users things to do, but 
+            chores cannot be zero and if
+            we type non existent username, the chore cannot be created
+            </summary>
+            <param name="username"></param>
+            <param name="c"></param>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:ToDoList.Service.ChoreService.Delete(System.String)">
+            <summary>
+            <c>Delete</c> give us the ability to erase alredy finished chores,
+            you cannot delete chores that dont exist.
+            </summary>
+            <param name="title"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoList.Service.ChoreService.GetAllChoresByUser(System.String)">
+            <summary>
+            Showing all chores belonging to it's user
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoList.Service.ChoreService.Update(System.String,System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            <c>Update</c> gives us control over editing the chore
+            </summary>
+            <param name="oldTitle"></param>
+            <param name="newTitle"></param>
+            <param name="Description"></param>
+            <param name="isImportant"></param>
+            <param name="isFinished"></param>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:ToDoList.Service.IChoreService.Create(System.String,ToDoList.Models.Chore)">
+            <summary>
+            Every user has chores
+            </summary>
+            <param name="username"></param>
+            <param name="c"></param>
+        </member>
+        <member name="M:ToDoList.Service.IChoreService.Update(System.String,System.String,System.String,System.Boolean,System.Boolean)">
+            <param name="oldTitle"></param>
+            <param name="newTitle"></param>
+            <param name="Description"></param>
+            <param name="isImportant"></param>
+            <param name="isFinished"></param>
+        </member>
+        <member name="M:ToDoList.Service.IChoreService.Delete(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="title"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoList.Service.IChoreService.GetAllChoresByUser(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoList.Service.IUserService.Create(System.String,System.String)">
+            <summary>
+            Users can say some words about them in bio
+            </summary>
+            <param name="username"></param>
+            <param name="bio"></param>
+        </member>
+        <member name="M:ToDoList.Service.IUserService.Update(System.String,System.String,System.String)">
+            <param name="oldUsername"></param>
+            <param name="newUsername"></param>
+            <param name="bio"></param>
+        </member>
+        <member name="M:ToDoList.Service.IUserService.Delete(System.String)">
+            <param name="username"></param>
+        </member>
+        <member name="M:ToDoList.Service.UserService.#ctor(ToDoList.Data.ToDoListDbContext)">
+            <summary>
+            UserSevice is connected to DB
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:ToDoList.Service.UserService.Create(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="username"></param>
+            <param name="bio"></param>
+        </member>
+        <member name="M:ToDoList.Service.UserService.Delete(System.String)">
+            <summary>
+            We cannot delete user with chores and user that do not exits
+            </summary>
+            <param name="username"></param>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:ToDoList.Service.UserService.Update(System.String,System.String,System.String)">
+            <summary>
+            We can edit usernames
+            </summary>
+            <param name="oldUsername"></param>
+            <param name="newUsername"></param>
+            <param name="bio"></param>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:ToDoList.Service.UserService.GetUser(System.String)">
+            <summary>
+            We can search in DB
+            </summary>
+            <param name="username"></param>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:ToDoList.Service.UserService.UserExists(System.String)">
+            <summary>
+            We decide if that person exists
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

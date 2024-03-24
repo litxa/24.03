@@ -1,0 +1,15 @@
+K:\Done!\ToDoList.Models\bin\Debug\net8.0\ToDoList.Models.deps.json
+K:\Done!\ToDoList.Models\bin\Debug\net8.0\ToDoList.Models.runtimeconfig.json
+K:\Done!\ToDoList.Models\bin\Debug\net8.0\ToDoList.Models.dll
+K:\Done!\ToDoList.Models\bin\Debug\net8.0\ToDoList.Models.pdb
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.csproj.AssemblyReference.cache
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.GeneratedMSBuildEditorConfig.editorconfig
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.AssemblyInfoInputs.cache
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.AssemblyInfo.cs
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.csproj.CoreCompileInputs.cache
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.sourcelink.json
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.dll
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\refint\ToDoList.Models.dll
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.pdb
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ToDoList.Models.genruntimeconfig.cache
+K:\Done!\ToDoList.Models\obj\Debug\net8.0\ref\ToDoList.Models.dll
